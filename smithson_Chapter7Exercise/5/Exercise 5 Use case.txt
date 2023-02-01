@@ -1,0 +1,39 @@
+Exercise 5: Account checker
+Gavin Smithson
+1/29/2023
+
+Steps
+1. Open the program
+2. Program opens "charge_accounts.txt' and stores it as a list
+3. User is prompted to enter the account number
+4. Program outputs if the account exists or not
+
+Date Submitted: 1/29/2023
+Application Title: Exercise 5: Account checker
+Purpose: Program asks the user an account number and the program checks if it exists within a
+txt file
+
+
+Program Procedures: 
+To use the program correctly you must enter a valid account number.
+
+Algorithms, Processing, and
+Conditions:
+1. Program opens both "charge_accounts.txt" 
+1b. Program santizies and stores the file as a list
+2. Program asks the user for the account number they would like to check for and stores it
+as the variable account_num
+3. If account_num is within the list the program tells the user it does exist
+3b. If account_num isn't within the list the program tells the user it doesn't exist
+4. Program closes the file
+
+Comments:
+"charge_accounts.txt" file was found on the offcial Python textbook website
+
+
+
+
+Notes and Restrictions: 
+Must have txt file within the same folder as the program. 
+
+Comments:

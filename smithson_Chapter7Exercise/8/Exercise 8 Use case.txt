@@ -1,0 +1,43 @@
+Exercise 8: Name popularity checker 
+Gavin Smithson
+1/25/2023
+
+Steps
+1. Start up on the program
+2. Program will ask you to choose between boy names, girl names, and both.
+3. Enter what you would like to check for.
+4. Enter the name and the program will check the respective file for the name.
+5. Restart the program as needed
+
+
+Date Submitted: 1/29/2023
+Application Title: Exercise 8: Name check
+Purpose: Progam checks two txt documents to see if the entered name is among the most popular names in the list
+
+Program Procedures: 
+To use this program make sure you enter your choice according to format. Do not enter any numbers or symbols into the program.
+
+
+Algorithms, Processing, and
+Conditions:
+1. Program opens both "BoyNames.txt" & "GirlNames.txt" files.
+1b. Program santizies both files and stores them each as a list
+2. Program asks for input with validation
+3. User inputs what gender of name they would like to check for
+3b User inputs both
+4. Program checks the gender of the choice from the user, and prompts the user to enter a name
+4b. Program checks to see if the entered name is within a list. 
+4c. Program then tells the result to the user.
+5. If both is chosen the program asks and checks for a girl name too
+6. Program closes both text files
+
+Comments:
+All text files werefound on the offcial Python textbook website
+
+
+
+
+Notes and Restrictions: 
+Must have all text files used within the same folder as the program.
+Must enter a real name.
+Comments:

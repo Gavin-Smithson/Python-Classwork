@@ -1,0 +1,49 @@
+Exercise 13: 8-ball
+Gavin Smithson
+1/29/2023
+
+Steps
+1. Open the program
+2. Program prompts the user if they would like to shake the 8-Ball
+2b. User enters 1 or 2 according to yes or no
+3. Program asks the user if what they would like to ask the 8-Ball
+3b. User enters what they'd like to ask
+4. Program outputs what the user asked along with the 8balls response
+5. Program loops back
+6. Once 2 is entered the loop is broken and the txt is closed
+
+Date Submitted: 1/29/2023
+Application Title: Exercise 13: 8-balls
+Purpose: Program asks the user if they'd like to shake the 8-ball and 
+generates a random response based on the list given
+
+
+Program Procedures: 
+To use the program you must enter 1 or 2 to select yes or no. The program only works with the txt
+for the responses.
+
+Algorithms, Processing, and
+Conditions:
+1. Program opens both "8_ball_responses.txt" and imports random
+1b. Program santizies and stores the file as a list
+2. Program asks to the user if they would like to shake the 8-ball
+2b. Program validates the input and loops back if input is bad.
+3. if 2 is entered the progam breaks the loop and jumps to step 6 
+4. If 1 is entered the program continues 
+4b. Program asks the user for what they'd like to ask the 8-ball and stores
+it as a variable
+4c. Program uses randint from the random library and uses the response to 
+output a print statement with the 8-balls response along with what the User
+asked
+5. Program jumps to step 2
+6. Program closes the txt file and ends
+
+Comments:
+8-ball txt file was found on the offcial Python textbook website
+
+
+
+
+Notes and Restrictions: 
+Must have 8-ball txt file within the same folder as the program.
+Comments:
